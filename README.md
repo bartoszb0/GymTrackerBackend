@@ -1,6 +1,6 @@
 
 # GymTracker - Tool for tracking gym progress
-![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen)
+[![Coverage](https://img.shields.io/badge/coverage-99%25-brightgreen)](https://gymtracker-coverage.onrender.com/)
 
 
 This mobile-friendly app is designed to help users manage and track their fitness progress on the go. Users can create workouts, including exercises, sets, reps, and weights used. The app provides a “Workout Mode,” allowing users to move through each exercise set by set and update their current weights. Additionally, the app includes a daily protein tracking feature, enabling users to record their intake and monitor progress toward personalized protein goals. 
@@ -72,7 +72,8 @@ https://gymtracker-7lua.onrender.com/
 ## Tests
 
 The backend is tested using Django's test framework.  
-Current test coverage: **99%**.
+Current test coverage: **99%**.  
+[**Coverage report**](https://gymtracker-coverage.onrender.com/)
 
 ### How to run tests?
 
