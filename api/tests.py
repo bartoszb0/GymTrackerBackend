@@ -557,9 +557,9 @@ class ExerciseRetrieveUpdateDestroyAPITestCase(JWTAuthMixin, APITestCase):
         new_reps = 3
         self.authenticate(self.user1)
         response = self.client.patch(self.getUrl(self.exercise), {"reps": new_reps})
-        self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
+        self.assertEqual(response.status_code, status.HTTP_200_OK)
         self.exercise.refresh_from_db()
-        self.assertNotEqual(self.exercise.reps, new_reps)
+        self.assertEqual(self.exercise.reps, new_reps)
 
 
     """ EXERCISE PATCH VALIDATION """

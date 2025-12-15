@@ -52,12 +52,15 @@ class ExerciseSerializer(serializers.ModelSerializer):
         Only the 'weight' field is allowed to be updated.
         Attempting to update any other field will raise a ValidationError.
         """
-        forbidden = set(validated_data) - {'weight'}
+        allowed = {'weight', 'reps'}
+        forbidden = set(validated_data) - allowed
         if forbidden:
             raise serializers.ValidationError(
                 {field: "This field cannot be updated." for field in forbidden}
             )
-        instance.weight = validated_data['weight']
+        for field in allowed:
+            if field in validated_data:
+                setattr(instance, field, validated_data[field])
         instance.save()
         return instance
 
