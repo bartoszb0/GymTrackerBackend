@@ -553,7 +553,7 @@ class ExerciseRetrieveUpdateDestroyAPITestCase(JWTAuthMixin, APITestCase):
         self.exercise.refresh_from_db()
         self.assertNotEqual(self.exercise.sets, new_sets)
 
-    def test_user_cant_update_reps(self):
+    def test_user_can_update_reps(self):
         new_reps = 3
         self.authenticate(self.user1)
         response = self.client.patch(self.getUrl(self.exercise), {"reps": new_reps})
