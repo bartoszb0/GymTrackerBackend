@@ -10,8 +10,6 @@ This mobile-friendly app is designed to help users manage and track their fitnes
 > Author: Bartosz Bednarczyk  
 >  Email: bartoszb2020@gmail.com
 
-https://github.com/user-attachments/assets/2353bd35-9aae-4fe4-9b6f-c6df9a428902
-
 ## Demo
 
 https://gymtracker-7lua.onrender.com/
@@ -21,9 +19,9 @@ https://gymtracker-7lua.onrender.com/
 
 * **Workouts and Exercises:** Users can create custom workouts and attach exercises to them, storing their workout plan in one place.
 
-* **Workout Mode:** When Workout Mode is activated users go through each exercise, set by set. At the end of each exercise user has option to update weight accordingly to their progress (if any was made).
+* **Workout Mode:** When Workout Mode is activated users go through exercise, set by set. At the end of each exercise user has option to update weight accordingly to their progress (if any was made).
 
-* **Workout Continuity:** Since GymTracker is designed to be actively used during your workout, the application ensures users **never lose their place**. Even after a page refresh or navigating away (common when putting a phone down during sets), the user is instantly prompted to **"Continue Workout"** exactly where they left off, providing a seamless and reliable experience.
+* **Workout Continuity:** Since GymTracker is designed to be actively used during your workout, the application ensures users **never lose their place**. Even after a page refresh or navigating away (common when putting a phone down during sets), the user can continue workout exactly where they left off, providing a seamless and reliable experience.
 
 * **Protein tracker:** Users can set their own daily protein goal and add current protein intake. Today's protein intake resets everyday.
 
@@ -75,7 +73,7 @@ The backend is tested using Django's test framework.
 Current test coverage: **99%**.  
 [**Coverage report**](https://gymtracker-coverage.onrender.com/)
 
-### How to run tests?
+### How to run tests
 
 Ensure you are in the project's root directory and have your virtual environment activated.
 
@@ -112,14 +110,3 @@ SECRET_KEY = paste_here
 
 7. Run server  
 `python manage.py runserver`
-
-## Screenshots
-
-<img width="282" height="609" alt="login" src="https://github.com/user-attachments/assets/76ec240a-c00d-46da-940d-0a40b2ea1713" />
-<img width="282" height="609" alt="homescreen" src="https://github.com/user-attachments/assets/e0b8d491-7b24-4d02-9c48-ff6e12e7c5c6" />
-<img width="282" height="609" alt="new-workout-form" src="https://github.com/user-attachments/assets/9243e9b6-5391-40e1-8f58-5df4f9fd0f4a" />
-<img width="282" height="609" alt="workout-view" src="https://github.com/user-attachments/assets/3ebb737f-6c43-4a75-88b7-698b93ee47af" />
-<img width="282" height="609" alt="new-exercise-form" src="https://github.com/user-attachments/assets/b56c3cb3-67b4-47b9-946f-4e03be427fa4" />
-<img width="282" height="609" alt="workout-mode" src="https://github.com/user-attachments/assets/54a27acc-df65-4160-9421-03a273af2c39" />
-<img width="282" height="609" alt="setting-new-weight" src="https://github.com/user-attachments/assets/d5828695-b933-4c8b-a989-cbdf5e2c2378" />
-<img width="282" height="609" alt="protein" src="https://github.com/user-attachments/assets/35e644cf-1264-4826-a20d-4d7430d86782" />
