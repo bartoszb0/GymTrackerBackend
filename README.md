@@ -5,7 +5,7 @@
 
 This mobile-friendly app is designed to help users manage and track their fitness progress on the go. Users can create workouts, including exercises, sets, reps, and weights used. The app provides a “Workout Mode,” allowing users to move through each exercise set by set and update their current weights. Additionally, the app includes a daily protein tracking feature, enabling users to record their intake and monitor progress toward personalized protein goals. 
 
-[Frontend Repository](https://github.com/bartoszb0/GymTrackerFrontend)
+[Frontend Repository](https://github.com/bartoszb0/GymTrackerFrontendRebuilt)
 
 > Author: Bartosz Bednarczyk  
 >  Email: bartoszb2020@gmail.com
