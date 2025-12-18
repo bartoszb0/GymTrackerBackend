@@ -12,7 +12,7 @@ This mobile-friendly app is designed to help users manage and track their fitnes
 
 ## Demo
 
-https://gymtracker-7lua.onrender.com/
+https://gymtracker-m6d3.onrender.com/
 
 
 ## Key Application Features
