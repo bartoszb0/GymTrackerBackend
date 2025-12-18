@@ -22,7 +22,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://gymtracker-7lua.onrender.com"
+    "https://gymtracker-m6d3.onrender.com"
 ]
 
 STORAGES = {
